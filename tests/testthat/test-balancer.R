@@ -153,7 +153,7 @@ testthat::test_that("Check results against populationsim", {
         seed_df[, .(hh_id, SUBREGCluster)],
         seed_df[, names(controls_importance), with = FALSE] * result$weight
     )
-    weight_zones_sums = weighted_zones_sums[,
+    weight_zones_sums = weight_zones_sums[,
         lapply(.SD, sum),
         .SDcols = names(controls_importance),
         by = SUBREGCluster

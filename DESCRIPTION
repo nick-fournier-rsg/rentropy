@@ -1,6 +1,6 @@
 Package: rentropy
 Title: R Native implementation of Maximum Entropy Weighting Algorithm
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     person("Nick", "Fournier", , "Nick.Fournier@rsginc.com", role = c("aut", "cre"))
 Description: This package provides a native R implementation of the Maximum

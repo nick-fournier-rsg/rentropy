@@ -34,9 +34,6 @@ jobs:
           - {os: ubuntu-latest, r: '4.4', http-user-agent: 'R/4.4.0 (2023-10-10)'}
           - {os: macos-latest, r: '4.4', http-user-agent: 'R/4.4.0 (2023-10-10)'}
           - {os: windows-latest, r: '4.4', http-user-agent: 'R/4.4.0 (2023-10-10)'}
-          - {os: ubuntu-latest, r: '4.3', http-user-agent: 'R/4.3.1 (2023-06-16)'}
-          - {os: macos-latest, r: '4.3', http-user-agent: 'R/4.3.1 (2023-06-16)'}
-          - {os: windows-latest, r: '4.3', http-user-agent: 'R/4.3.1 (2023-06-16)'}
     env:
       R_KEEP_PKG_SOURCE: yes
 

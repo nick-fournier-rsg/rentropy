@@ -52,11 +52,11 @@ jobs:
           http-user-agent: ${{ matrix.config.http-user-agent }}
           use-public-rspm: true
 
-      # - name: Install renv and restore the environment
-      #   run: |
-      #     Rscript -e 'install.packages("devtools")'
-      #     Rscript -e 'install.packages("renv")'
-      #     Rscript -e 'renv::restore()'
+      - name: Install renv and restore the environment
+        run: |
+          Rscript -e 'install.packages("devtools")'
+          Rscript -e 'install.packages("renv")'
+          Rscript -e 'renv::restore()'
 
       - name: Run R CMD check
         uses: r-lib/actions/check-r-package@v2
